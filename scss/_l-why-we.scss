@@ -1,0 +1,73 @@
+.why-we {
+  padding: 0 0 80px;
+
+  @include laptop {
+    padding-bottom: 70px;
+  }
+
+  &__title {
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+
+    @include laptop {
+      font-size: 32px;
+    }
+
+    @include mobile {
+      margin-bottom: 25px;
+      font-size: 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+
+    @include laptop {
+      gap: 15px;
+    }
+  }
+
+  &__card {
+    flex: 0 0 calc(100% / 4 - 22px / 4 * 3);
+    padding: 28px 19px 25px;
+    box-sizing: border-box;
+    border: 2px solid #deac4c;
+
+    @include laptop {
+      flex: 0 0 calc(100% / 2 - 15px / 2);
+    }
+
+    @include mobile {
+      flex: 1 1 100%;
+    }
+
+    &-title {
+      margin: 0 0 19px;
+      padding-bottom: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #deac4c;
+      border-bottom: 2px solid #deac4c;
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 16px;
+      color: #000;
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+  }
+}
