@@ -51,7 +51,7 @@ stonesSliders.forEach((stonesSlider) => {
 });
 
 const maskOptions = {
-  mask: '{7} (000) 000-00-00',
+  mask: '{7} (000) 000-00-00[0]',
 };
 
 const phoneInputClassNames = [
