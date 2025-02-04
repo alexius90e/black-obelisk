@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="./js/swiper-bundle.min.js" defer></script>
+    <script src="./js/imask.js" defer></script>
     <script type="module" src="./js/index.js" defer></script>
   </head>
 
@@ -38,9 +39,9 @@
               <input class="first-screen__callback-form-input" type="text" placeholder="Имя" />
 
               <input
-                class="first-screen__callback-form-input"
+                class="first-screen__callback-form-input first-screen__callback-form-input_phone"
                 type="tel"
-                placeholder="7 (___)-___-__-__"
+                placeholder="7 (___) ___-__-__"
               />
 
               <button class="first-screen__callback-form-submit">Заказать</button>
@@ -649,10 +650,10 @@
               <label class="callback__form-label">
                 <span class="callback__form-label-text">Телефон</span>
                 <input
-                  class="callback__form-label-input"
+                  class="callback__form-label-input callback__form-label-input_phone"
                   name="phone"
                   type="tel"
-                  placeholder="7 (___)-___-__-__"
+                  placeholder="7 (___) ___-__-__"
                   required
                 />
               </label>
