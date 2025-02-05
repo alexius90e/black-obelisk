@@ -85,6 +85,10 @@ img {
     font-size: 25px;
   }
 }
+.first-screen__title > em {
+  font-style: normal;
+  color: #deac4c;
+}
 .first-screen__description {
   position: relative;
   z-index: 10;
@@ -106,6 +110,20 @@ img {
 }
 @media (max-width: 576px) {
   .first-screen__description {
+    font-size: 20px;
+  }
+}
+.first-screen__description_windows {
+  font-size: 25px;
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  .first-screen__description_windows {
+    font-size: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .first-screen__description_windows {
     font-size: 20px;
   }
 }
@@ -137,8 +155,8 @@ img {
 }
 @media (max-width: 992px) {
   .first-screen__figure-image {
-    -webkit-transform: scale(160%) translate3d(0%, -5%, 0);
-            transform: scale(160%) translate3d(0%, -5%, 0);
+    -webkit-transform: scale(130%) translate3d(0%, -5%, 0);
+            transform: scale(130%) translate3d(0%, -5%, 0);
   }
 }
 .first-screen__callback {
